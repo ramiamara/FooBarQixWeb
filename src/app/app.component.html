@@ -1,0 +1,54 @@
+	<!-- title -->
+	<h1>FooBarQix</h1>
+	<!-- //title -->
+
+	<!-- content -->
+	<div class="sub-main-w3">
+		<div class="widget-agile">
+			<h2>Calculate</h2>
+			<p>min=0 and max=2147483647</p>
+			<div class="thim-click-to-bottom">
+				<i class="fas fa-hand-point-down"></i>
+			</div>
+			<div class="calculator">
+				<div class="row displayBox">
+					<input type="number" id="basicCalculator" [(ngModel)]="number" placeholder="0" min="1" max="2147483647" step="1" onkeypress="return event.charCode >= 48" />
+				</div>
+				<div class="row displayBox">
+					<p class="" id="replace">{{resulat}}</p>
+				</div>
+				<div class="row numberPad">
+					<div class="left-count">
+					
+						<div class="row">
+							
+							<button class="btn btn-calc hvr-radial-out" (click)="pressKey('9')" id="nine">9</button>
+							<button class="btn btn-calc hvr-radial-out orange" (click)="pressKey('*')" id="smart">*</button>
+							<button class="btn calu-w3ls hvr-back-pulse" (click)="allClear()" id="calu-w3ls">C</button>
+						</div>
+						<div class="row">
+							
+							<button class="btn btn-calc hvr-radial-out" (click)="pressKey('6')" id="six">6</button>
+							<button class="btn btn-calc hvr-radial-out" (click)="pressKey('7')" id="seven">7</button>
+							<button class="btn btn-calc hvr-radial-out" (click)="pressKey('8')" id="eight">8</button>
+						</div>
+						<div class="row">
+							<button class="btn btn-calc hvr-radial-out" (click)="pressKey('3')" id="three">3</button>
+							<button class="btn btn-calc hvr-radial-out" (click)="pressKey('4')" id="four">4</button>
+							<button class="btn btn-calc hvr-radial-out" (click)="pressKey('5')" id="five">5</button>
+						</div>
+						<div class="row">
+							<button class="btn btn-calc hvr-radial-out" (click)="pressKey('0')" id="zero">0</button>
+							<button class="btn btn-calc hvr-radial-out" (click)="pressKey('1')" id="one">1</button>
+							<button class="btn btn-calc hvr-radial-out" (click)="pressKey('2')" id="two">2</button>
+						</div>
+					</div>
+					<div class="operationSide right-count">
+					
+						<button id="equals" class="btn btn-operation hvr-fade orange" (click)="onClick()">=</button>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+	</div>
