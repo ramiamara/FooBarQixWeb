@@ -1,5 +1,5 @@
 # FooBarQixWeb
-
+![alt text](https://github.com/ramiamara/FooBarQixWeb/blob/master/Capture.PNG)
 It is the web part developed with Angular which allows you to call the Back part to calculate (compute)
 
 Rules
