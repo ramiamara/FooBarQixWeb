@@ -1,11 +1,11 @@
 # FooBarQixWeb
-It is the web part developed with Angular which allows you to call the Back part to calculate (compute)
-Rules
-If the number is divisible by 3, write “Foo” instead of the number
-If the number is divisible by 5, add “Bar”
-If the number is divisible by 7, add “Qix”
+#It is the web part developed with Angular which allows you to call the Back part to calculate (compute)
+#Rules
+-If the number is divisible by 3, write “Foo” instead of the number
+-If the number is divisible by 5, add “Bar”
+-If the number is divisible by 7, add “Qix”
 For each digit 3, 5, 7, add “Foo”, “Bar”, “Qix” in the digits order.
-Examples
+#Examples
 1  => 1
 2  => 2
 3  => FooFoo (divisible by 3, contains 3)
